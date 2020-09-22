@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2</title>
+</head>
+<body>
+    <img src="nbafinalsgraph.png" alt="Number of NBA Championships by Team" width="450" height="350">
+    <br>
+    <a href="mailto:zimmej26@gmatc.matc.edu">Contact Joe</a>
+    <!-- Simple Table -->
+    <h1>My Favorite NBA Teams</h1>
+    <table id="simple-table" border="1" cellspacing="0">
+        <tr>
+            <th>Team</th>
+            <th>URL</th>
+        </tr>
+        <tr>
+            <td>Milwaukee Bucks</td>
+            <td>
+                <a href="https://www.nba.com/bucks/">Official Milwaukee Bucks Website</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Dallas Mavericks</td>
+            <td>
+                <a href="https://www.nba.com/mavericks/">Official Dallas Mavericks Website</a>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <!-- Complex Table -->
+    <table id="complex-table" border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th scope="column">Small Market</th>
+                <th scope="column">Big Market</th>
+                <th scope="column">International Players</th>
+                <th scope="column">Finals Wins</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">Bucks</td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td scope="row">Mavericks</td>
+                <td>No</td>
+                <td colspan="2">Yes</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="5">&copy; Adam Silver 2020</td>
+        </tfoot>
+    </table>
+</body>
+</html>
